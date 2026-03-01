@@ -1,3 +1,16 @@
+package Ejercicios_Input;
+//Ejercicio 5 — Calculadora de IMC
+//Pide nombre, peso en kg y altura en metros. Calcula el IMC y clasifícalo.
+
+//Fórmula: IMC = peso / (altura × altura)
+
+//Clasificación:
+
+//IMC < 18.5 → Bajo peso
+//18.5 ≤ IMC < 25 → Normal
+//25 ≤ IMC < 30 → Sobrepeso
+//IMC ≥ 30 → Obesidad
+//Datos de entrada: String nombre, double peso, double altura
 
 import java.util.Locale;
 import java.util.Scanner;

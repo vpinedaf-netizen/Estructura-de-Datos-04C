@@ -1,3 +1,18 @@
+package Ejercicios_Input;
+//Ejercicio 4 — Perfil de usuario
+//Pide al usuario los datos de su perfil: nombre, edad, ciudad, correo y si acepta términos y condiciones. Muestra un resumen indicando el tipo de dato que se usó para cada campo.
+
+//Datos de entrada: String, int, String, String, boolean
+
+//Salida esperada:
+
+//========= Perfil creado =========
+//Nombre  (String)  : Ana Pérez
+//Edad    (int)     : 22
+//Ciudad  (String)  : Bogotá
+//Correo  (String)  : ana@mail.com
+//T&C     (boolean) : true
+
 import java.util.Locale;
 import java.util.Scanner;
 

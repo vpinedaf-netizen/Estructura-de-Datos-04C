@@ -1,3 +1,22 @@
+package Ejercicios_Input;
+//**Ejercicio 1 — Recibo de compra
+//Pide al usuario el nombre de un producto, la cantidad comprada y el precio unitario. Calcula el subtotal, aplica un IVA del 19% y muestra el recibo con el total a pagar.
+
+//Datos de entrada:
+
+//String nombre del producto
+//int cantidad
+//double precio unitario
+//Salida esperada:
+
+//===== Recibo =====
+//Producto  : Arroz
+//Cantidad  : 3
+//Precio c/u: $2500.00
+//Subtotal  : $7500.00
+//IVA (19%) : $1425.00
+//Total     : $8925.00 */
+
 import java.util.Locale;
 import java.util.Scanner;
 

@@ -1,3 +1,20 @@
+package Ejercicios_Input;
+//Ejercicio 3 — Promedio de notas
+//Pide al usuario su nombre y 4 notas de un curso. Calcula el promedio y determina 
+// si aprobó (promedio >= 3.0).
+
+//Datos de entrada:
+
+//String nombre
+//double nota1, nota2, nota3, nota4
+//Salida esperada:
+
+//Estudiante: Carlos
+//Promedio  : 3.45
+//Estado    : APROBADO
+//Pista: usa una variable boolean aprobado = promedio >= 3.0; para el estado.
+
+
 import java.util.Locale;
 import java.util.Scanner;
 
