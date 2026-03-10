@@ -15,49 +15,48 @@ package Ejercicios_Algoritmos_de_Ordenamiento;
 // al nuevo valor.
 
 import java.util.Scanner;
-import java.util.Arrays;
 
-public class Ejercicio2_Biblioteca {
+public class Ejercicio2_Biblioteca{
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Ingrese la cantidad de libros: ");
+        System.out.print("Cantidad de libros: ");
         int n = sc.nextInt();
 
-        int[] isbn = new int[n];
+        int[] libros = new int[n];
 
-        // Ingreso de datos
         for (int i = 0; i < n; i++) {
-            System.out.print("Ingrese el ISBN del libro " + (i + 1) + ": ");
-            isbn[i] = sc.nextInt();
-        }
 
-        System.out.println("\nArreglo inicial: " + Arrays.toString(isbn));
+            System.out.print("\nIngrese ISBN del libro " + (i + 1) + ": ");
+            int nuevo = sc.nextInt();
 
-        // Insertion Sort
-        for (int i = 1; i < n; i++) {
-
-            int clave = isbn[i];
             int j = i - 1;
 
-            // Mover los elementos mayores a la derecha
-            while (j >= 0 && isbn[j] > clave) {
-                isbn[j + 1] = isbn[j];
+            // mover elementos hacia la derecha
+            while (j >= 0 && libros[j] > nuevo) {
+                libros[j + 1] = libros[j];
                 j--;
+
+                
             }
 
-            // Insertar el valor en su posición correcta
-            isbn[j + 1] = clave;
+            libros[j + 1] = nuevo;
 
-            // Mostrar cómo va quedando el arreglo en cada ciclo
-            System.out.println("Paso " + i + ": " + Arrays.toString(isbn));
+            System.out.println("Insertado:");
+            mostrar(libros, i + 1);
         }
-
-        System.out.println("\nArreglo ordenado final: " + Arrays.toString(isbn));
-
         sc.close();
+        
+    }
+
+    public static void mostrar(int[] arreglo, int limite) {
+        System.out.print("[ ");
+        for (int i = 0; i < limite; i++) {
+            System.out.print(arreglo[i] + " ");
+        }
+        System.out.println("]");
     }
 }
     
