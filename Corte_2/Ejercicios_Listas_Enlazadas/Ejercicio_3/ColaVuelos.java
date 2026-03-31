@@ -69,7 +69,7 @@ class ColaVuelos {
                 actual.siguiente = cabeza;
                 cabeza = actual;
 
-                System.out.println("⚠️ Emergencia atendida. Vuelo movido al inicio.");
+                System.out.println("Emergencia atendida. Vuelo movido al inicio.");
                 return;
             }
 

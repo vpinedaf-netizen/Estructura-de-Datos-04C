@@ -53,7 +53,7 @@ class Inventario {
 
         while (actual != null) {
             if (actual.diasParaVencer < 5) {
-                System.out.println("⚠️ Nombre: " + actual.nombre +
+                System.out.println("Nombre: " + actual.nombre +
                         " | Cantidad: " + actual.cantidad +
                         " | Días: " + actual.diasParaVencer);
                 hay = true;
