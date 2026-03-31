@@ -1,21 +1,61 @@
 package Corte_2.Ejercicios_Listas_Enlazadas.Ejercicio_3;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        ColaVuelos cola = new ColaVuelos();
+        int opcion;
 
-        TorreControl torre = new TorreControl();
+        do {
+            System.out.println("\n=== TORRE DE CONTROL ===");
+            System.out.println("1. Agregar vuelo");
+            System.out.println("2. Mostrar vuelos");
+            System.out.println("3. Reportar emergencia");
+            System.out.println("4. Salir");
+            System.out.print("Seleccione: ");
+            opcion = sc.nextInt();
+            sc.nextLine();
 
-        torre.agregarVuelo("AV123", "Avianca", 50, 180);
-        torre.agregarVuelo("LA456", "Latam", 8, 150);
-        torre.agregarVuelo("IB789", "Iberia", 30, 200);
+            switch (opcion) {
+                case 1:
+                    System.out.print("Número de vuelo: ");
+                    String numero = sc.nextLine();
 
-        System.out.println("Cola inicial:");
-        torre.mostrarCola();
+                    System.out.print("Aerolínea: ");
+                    String aerolinea = sc.nextLine();
 
-        System.out.println("\nEmergencia de AV123:");
-        torre.reportarEmergencia("AV123");
+                    System.out.print("Combustible restante: ");
+                    int combustible = sc.nextInt();
 
-        System.out.println("\nCola actualizada:");
-        torre.mostrarCola();
+                    System.out.print("Pasajeros: ");
+                    int pasajeros = sc.nextInt();
+                    sc.nextLine();
+
+                    cola.agregarVuelo(numero, aerolinea, combustible, pasajeros);
+                    break;
+
+                case 2:
+                    cola.mostrarVuelos();
+                    break;
+
+                case 3:
+                    System.out.print("Número de vuelo en emergencia: ");
+                    String emergencia = sc.nextLine();
+                    cola.reportarEmergencia(emergencia);
+                    break;
+
+                case 4:
+                    System.out.println("Saliendo...");
+                    break;
+
+                default:
+                    System.out.println("Opción inválida");
+            }
+
+        } while (opcion != 4);
+
+        sc.close();
     }
 }
