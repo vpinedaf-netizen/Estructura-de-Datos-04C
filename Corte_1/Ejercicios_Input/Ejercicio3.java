@@ -1,4 +1,4 @@
-package Ejercicios_Input;
+package Corte_1.Ejercicios_Input;
 //Ejercicio 3 — Promedio de notas
 //Pide al usuario su nombre y 4 notas de un curso. Calcula el promedio y determina 
 // si aprobó (promedio >= 3.0).

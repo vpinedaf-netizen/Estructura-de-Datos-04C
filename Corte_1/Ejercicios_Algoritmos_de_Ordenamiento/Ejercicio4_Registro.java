@@ -8,7 +8,7 @@
 // Resultado esperado: La lista de asistencia impresa en orden alfabético perfecto.
 
 
-package Ejercicios_Algoritmos_de_Ordenamiento;
+package Corte_1.Ejercicios_Algoritmos_de_Ordenamiento;
 
 import java.util.Scanner;
 import java.util.Arrays;

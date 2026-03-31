@@ -1,4 +1,4 @@
-package Ejercicios_Input;
+package Corte_1.Ejercicios_Input;
 //**Ejercicio 2 — Conversor de temperatura
 //Pide al usuario una temperatura en Celsius y conviértela a Fahrenheit y Kelvin.
 

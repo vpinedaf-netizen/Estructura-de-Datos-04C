@@ -1,4 +1,4 @@
-package Ejercicios_Algoritmos_de_Ordenamiento;
+package Corte_1.Ejercicios_Algoritmos_de_Ordenamiento;
 // 1. El Podio de la Competencia
 // Algoritmo obligatorio: Ordenamiento por Selección (Selection Sort)
 

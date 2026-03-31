@@ -1,4 +1,4 @@
-package Ejercicios_Input;
+package Corte_1.Ejercicios_Input;
 /*
  * Ejercicio 10 — Intercambio de valores
  * Tema 2 — Variables por referencia

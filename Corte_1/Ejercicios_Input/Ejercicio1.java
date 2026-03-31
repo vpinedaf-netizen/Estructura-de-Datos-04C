@@ -1,4 +1,4 @@
-package Ejercicios_Input;
+package Corte_1.Ejercicios_Input;
 //**Ejercicio 1 — Recibo de compra
 //Pide al usuario el nombre de un producto, la cantidad comprada y el precio unitario. Calcula el subtotal, aplica un IVA del 19% y muestra el recibo con el total a pagar.
 

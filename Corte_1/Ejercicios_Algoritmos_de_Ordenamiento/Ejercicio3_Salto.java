@@ -1,4 +1,4 @@
-package Ejercicios_Algoritmos_de_Ordenamiento;
+package Corte_1.Ejercicios_Algoritmos_de_Ordenamiento;
 // 3. El Salto de Shell (Optimización de Datos)
 // Algoritmo obligatorio: Ordenamiento Shell (Shell Sort)
 

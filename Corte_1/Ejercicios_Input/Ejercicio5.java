@@ -1,4 +1,4 @@
-package Ejercicios_Input;
+package Corte_1.Ejercicios_Input;
 //Ejercicio 5 — Calculadora de IMC
 //Pide nombre, peso en kg y altura en metros. Calcula el IMC y clasifícalo.
 

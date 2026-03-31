@@ -1,4 +1,4 @@
-package Ejercicios_Input;
+package Corte_1.Ejercicios_Input;
 /*
  * Ejercicio 6 — Demostración por valor
  * Tema 2 — Variables por referencia

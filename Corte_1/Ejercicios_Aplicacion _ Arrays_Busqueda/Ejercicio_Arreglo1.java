@@ -1,3 +1,4 @@
+
 //El Cajero del Supermercado (Inventario)
 //Un cajero escanea un producto con el código de barras 770123.
 //  El sistema tiene un arreglo desordenado con los códigos de los productos 

@@ -1,4 +1,4 @@
-package Ejercicios_Algoritmos_de_Ordenamiento;
+package Corte_1.Ejercicios_Algoritmos_de_Ordenamiento; 
 // 2. Organización de Biblioteca Dinámica
 // Algoritmo obligatorio: Ordenamiento por Inserción (Insertion Sort)
 

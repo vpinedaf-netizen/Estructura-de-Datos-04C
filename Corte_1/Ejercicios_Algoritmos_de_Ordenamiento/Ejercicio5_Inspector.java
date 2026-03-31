@@ -8,7 +8,7 @@
 // En Inserción: Cuenta cada vez que un elemento se "mueve" hacia la izquierda dentro del bucle interno.
 // Resultado esperado: El programa debe imprimir cuántos intercambios hizo Selección y cuántos movimientos hizo Inserción. El estudiante debe concluir cuál fue más eficiente para esos datos ingresados por el teclado.
 
-package Ejercicios_Algoritmos_de_Ordenamiento;
+package Corte_1.Ejercicios_Algoritmos_de_Ordenamiento;
 import java.util.Scanner;
 import java.util.Arrays;
 
