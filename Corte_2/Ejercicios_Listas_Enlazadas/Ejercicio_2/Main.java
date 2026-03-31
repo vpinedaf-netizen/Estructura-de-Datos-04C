@@ -9,7 +9,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\n=== INVENTARIO DE LÁCTEOS ===");
+            System.out.println("\n== INVENTARIO DE LÁCTEOS ==");
             System.out.println("1. Agregar producto");
             System.out.println("2. Mostrar todos los productos");
             System.out.println("3. Mostrar productos por vencer (<5 días)");
