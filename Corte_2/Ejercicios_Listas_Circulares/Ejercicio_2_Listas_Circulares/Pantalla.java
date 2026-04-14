@@ -44,7 +44,7 @@ public class Pantalla {
     // MÉTODO DEL RETO
     public void reproducir(int ciclos) {
         if (cabeza == null) {
-            System.out.println("No hay anuncios.");
+            System.out.println("No hay anuncios para reproducir.");
             return;
         }
 

@@ -99,7 +99,7 @@ public class Planificador {
                 }
             }
 
-            System.out.println("---------------------------");
+            System.out.println("-------------------------");
         }
 
         // Mostrar orden final

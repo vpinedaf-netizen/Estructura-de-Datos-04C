@@ -10,7 +10,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\n=== PLANIFICADOR ROUND ROBIN ===");
+            System.out.println("\n===== PLANIFICADOR ROUND ROBIN ====");
             System.out.println("1. Agregar proceso");
             System.out.println("2. Mostrar procesos");
             System.out.println("3. Ejecutar planificador");

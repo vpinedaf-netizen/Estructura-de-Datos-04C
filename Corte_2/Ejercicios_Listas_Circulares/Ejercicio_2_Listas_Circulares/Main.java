@@ -22,7 +22,7 @@ public class Main {
         int opcion;
 
         do {
-            System.out.println("\n=== PANTALLA DIGITAL ===");
+            System.out.println("\n===== PANTALLA DIGITAL ====");
             System.out.println("1. Agregar anuncio");
             System.out.println("2. Mostrar anuncios");
             System.out.println("3. Reproducir anuncios");

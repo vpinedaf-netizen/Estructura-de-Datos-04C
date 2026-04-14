@@ -6,7 +6,7 @@ public class Anuncio {
     int vecesRepetido;
     String categoria;
 
-    Anuncio siguiente;
+    Anuncio siguiente; 
 
     public Anuncio(String titulo, int duracionSegundos, String categoria) {
         this.titulo = titulo;
@@ -21,6 +21,6 @@ public class Anuncio {
         System.out.println("Duración: " + duracionSegundos + " seg");
         System.out.println("Categoría: " + categoria);
         System.out.println("Veces repetido: " + vecesRepetido);
-        System.out.println("---------------------------");
+        System.out.println("----------------------------");
     }
 }

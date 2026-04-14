@@ -21,6 +21,6 @@ public class Proceso {
         System.out.println("PID: " + pid);
         System.out.println("Tiempo restante: " + tiempoRestante);
         System.out.println("Prioridad: " + prioridad);
-        System.out.println("---------------------------");
+        System.out.println("------------------------");
     }
 }
