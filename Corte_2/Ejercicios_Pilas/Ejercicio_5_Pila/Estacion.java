@@ -1,0 +1,17 @@
+package Corte_2.Ejercicios_Pilas.Ejercicio_5_Pila;
+
+public class Estacion 
+{
+    String nombrePunto;
+    int profundidad;
+    double nivelOxigeno;
+    Estacion siguiente;
+
+    public Estacion(String nombrePunto, int profundidad, double nivelOxigeno) 
+    {
+        this.nombrePunto = nombrePunto;
+        this.profundidad = profundidad;
+        this.nivelOxigeno = nivelOxigeno;
+        this.siguiente = null;
+    }
+}
