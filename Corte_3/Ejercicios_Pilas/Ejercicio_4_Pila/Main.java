@@ -1,4 +1,4 @@
-package Corte_2.Ejercicios_Pilas.Ejercicio_4_Pila;
+package Corte_3.Ejercicios_Pilas.Ejercicio_4_Pila;
 
 // 4. Farmacia Automatizada (Dispensador Tubo LIFO)
 // En una farmacia de alta tecnología, los medicamentos de alta rotación se almacenan en tubos dispensadores verticales. El personal 

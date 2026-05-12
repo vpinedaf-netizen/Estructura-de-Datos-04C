@@ -1,4 +1,4 @@
-package Corte_2.Ejercicios_Pilas.Ejercicio_3_Pila;
+package Corte_3.Ejercicios_Pilas.Ejercicio_3_Pila;
 
 // 3. Logística de Distribución (Callejón sin Salida)
 // Un centro de logística urbana tiene un muelle de carga ubicado al final de un callejón muy estrecho. Los camiones de 

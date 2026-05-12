@@ -1,4 +1,4 @@
-package Corte_2.Ejercicios_Pilas.Ejercicio_2_Pila;
+package Corte_3.Ejercicios_Pilas.Ejercicio_2_Pila;
 
 // 2. Control de Calidad (Línea de Ensamblaje)
 // Un brazo robótico en una fábrica de motores apila componentes siguiendo una secuencia precisa. Un sensor de visión 

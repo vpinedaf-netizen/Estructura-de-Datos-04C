@@ -1,4 +1,4 @@
-package Corte_2.Ejercicios_Pilas.Ejercicio_4_Pila;
+package Corte_3.Ejercicios_Pilas.Ejercicio_4_Pila;
 
 public class Medicamento 
 {

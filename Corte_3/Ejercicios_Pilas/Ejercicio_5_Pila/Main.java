@@ -1,4 +1,4 @@
-package Corte_2.Ejercicios_Pilas.Ejercicio_5_Pila;
+package Corte_3.Ejercicios_Pilas.Ejercicio_5_Pila;
 
 // 5. Ruta de Rescate (Espeleología Geológica)
 // Un equipo de rescatistas entra en una cueva inexplorada. Para no perderse, van dejando "Estaciones de Seguridad" 
